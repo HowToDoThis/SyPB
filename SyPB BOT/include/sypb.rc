@@ -1,0 +1,31 @@
+
+#include <winver.h>
+#include <../../version.h>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION SYPB_VERSION_DWORD
+PRODUCTVERSION SYPB_VERSION_DWORD
+FILEOS 0x40004
+FILETYPE 0x2
+{  
+    BLOCK "StringFileInfo"
+    {
+      BLOCK "040904E4"
+      {   
+          VALUE "CompanyName",       PRODUCT_AUTHOR        "\0"
+          VALUE "FileDescription",   SYPB_DESCRIPTION   "\0"
+          VALUE "FileVersion",       SYPB_VERSION       "\0"
+          VALUE "OriginalFilename",  "sypb.dll" "\0"
+          VALUE "LegalCopyright", PRODUCT_AUTHOR     "\0"
+          VALUE "LegalTrademarks",   PRODUCT_AUTHOR         "\0"
+          VALUE "ProductName",       SYPB_NAME          "\0"
+		  VALUE "ProductVersion",    SYPB_VERSION       "\0"
+      }
+    }
+#ifndef NOLANGINFO
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x400, 1252
+    }
+#endif
+}
