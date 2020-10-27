@@ -1,4 +1,3 @@
-
 #ifndef RESOURCE_INCLUDED
 #define RESOURCE_INCLUDED
 

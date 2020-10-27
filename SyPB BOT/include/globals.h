@@ -41,12 +41,12 @@ extern uint16 SwNPC_Build[4];
 // ****
 
 extern bool g_bombPlanted;
-extern bool g_bombSayString; 
+extern bool g_bombSayString;
 extern bool g_roundEnded;
 extern bool g_waypointOn;
 extern bool g_waypointsChanged;
 extern bool g_autoWaypoint;
-extern bool g_botsCanPause; 
+extern bool g_botsCanPause;
 extern bool g_editNoclip;
 extern bool g_isMetamod;
 extern bool g_isFakeCommand;
@@ -88,7 +88,7 @@ extern int g_grenadeBuyMoney[Const_NumWeapons - 23];
 extern int g_radioSelect[32];
 extern int g_lastRadio[2];
 extern int g_storeAddbotVars[4];
-extern int *g_weaponPrefs[];
+extern int* g_weaponPrefs[];
 
 extern int g_modelIndexLaser;
 extern int g_modelIndexArrow;
@@ -102,7 +102,7 @@ extern int g_entityAction[entityNum];
 extern int g_entityWpIndex[entityNum];
 extern Vector g_entityGetWpOrigin[entityNum];
 extern float g_entityGetWpTime[entityNum];
-extern edict_t *g_hostages[Const_MaxHostages];
+extern edict_t* g_hostages[Const_MaxHostages];
 extern int g_hostagesWpIndex[Const_MaxHostages];
 
 extern Array <Array <String> > g_chatFactory;
@@ -118,9 +118,9 @@ extern MenuText g_menus[26];
 extern SkillDef g_skillTab[6];
 extern Task g_taskFilters[];
 
-extern edict_t *g_hostEntity; 
-extern edict_t *g_worldEdict;
-extern Library *g_gameLib;
+extern edict_t* g_hostEntity;
+extern edict_t* g_worldEdict;
+extern Library* g_gameLib;
 
 extern DLL_FUNCTIONS g_functionTable;
 extern EntityAPI_t g_entityAPI;

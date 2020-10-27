@@ -9,9 +9,17 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2.SyPB API", "SyPB API\SyPB
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.SwNPC", "SwNPC\SwNPC.vcxproj", "{05330595-B76E-4838-9C03-7D49168F206F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Base", "0. Base", "{4B6F2887-AAD5-48DC-A08B-B2F26717F6AF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Base", "0.Base", "{4B6F2887-AAD5-48DC-A08B-B2F26717F6AF}"
 	ProjectSection(SolutionItems) = preProject
 		version.h = version.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{EDFBD4DA-E34F-40B0-A1ED-3E5F10BFD906}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

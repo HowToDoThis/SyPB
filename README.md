@@ -1,3 +1,22 @@
+# About This Project
+Because Original Project are Weirdly Large, So I reopen a GitHub repository to lowering it down.
+
+This project is making AI more overpowered and user friendly.
+
+I will try to make this "overpowered" AI support to official version of [CCNHsK-Dev/SyPB](https://github.com/CCNHsK-Dev/SyPB)
+
+
+Thanks to [CCNHsK-Dev](http://ccnhsk-dev.blogspot.hk/) making this awesome CS1.6 AI Improvement.
+
+## Noteable Changes With Original SyPB
+ - No more supporting XP version
+ - No more ugly code (some of them are hard to read and understanding)
+ - Adding More Translation about These Functions
+ - Lower Usage
+ - Performance Upgrade
+
+## Original README.md Content
+
 # SyPB
 Counter-Strike 1.6 Bot, Based on YaPB
 
